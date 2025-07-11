@@ -1,0 +1,19 @@
+Notes on Data
+"Product Categorisation:
+A list of each product we sell on our website with key 'tags' associated with it. These tags are Brand, Category, Feature, Pet Type, Type and Variety. "
+"Product Sales Volume: 
+Each product has a volume of units sold over a period of time. "
+"Browse pages:
+Browsing Page data which correspond to specific pages on our website. The structure of the 'Page Name' field relates to the product categorisation tags noted above.
+
+These tags are structured in the format of a category tree, with some examples below:
+- All / [Brand]
+- All / [Pet Type]
+- All / [Pet Type] / [Category]
+- All / [Pet Type] / [Category] / [Brand] OR [Feature] OR [Type] OR [Variety]
+
+A product would appear on a Browse page if there is a match between the Page ID and the tags associated with the product.
+
+An example: All / Cat / Food / Wet Food would include all products that have tag values of  Cat and Food and Wet Food. It would not include products that have tag values of Cat and Food and Dry Food
+
+Important for your analysis, you can assume each browse page 'View' only shows 50 products in one page view."
